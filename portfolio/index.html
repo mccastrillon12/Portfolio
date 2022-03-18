@@ -8,18 +8,24 @@
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     </head>
     <body>
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+       
       <nav class="navbar">
           <div class="max-width">
               <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Teams</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="menu-btn">Home</a></li>
+                    <li><a href="#about" class="menu-btn">About</a></li>
+                    <li><a href="#projects" class="menu-btn">Projects</a></li>
+                    <li><a href="#contact" class="menu-btn">Contact</a></li>
+                    
                 </ul>
 
                 <div class="menu-btn">
@@ -41,7 +47,96 @@
           </div>
 
       </section>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, debitis? Repellendus aut odit nobis ex, incidunt, aliquam ducimus iure rem, soluta sint vitae vel. Nam reprehenderit consequuntur corporis amet facilis fugit sed voluptate, nihil vitae iusto harum eligendi minima ab rerum neque quidem excepturi fugiat quod enim autem ratione. Deserunt dolorum ullam fuga officiis nobis perspiciatis dicta at illum officia ad facere modi quaerat veritatis earum reprehenderit architecto, ducimus dignissimos consequuntur, numquam neque cumque? Maxime possimus vel quidem quas autem fuga eaque. Fugiat quidem hic dolorem deleniti maxime minima, illum, unde placeat, sunt consequuntur temporibus. Nobis aspernatur eum magni! Consectetur deserunt illum quam. Vel non omnis aliquid veritatis nisi tempore beatae necessitatibus aspernatur optio ad, quia blanditiis accusamus dolore aut? Quae, id minus aspernatur repellat voluptatem ipsa perspiciatis tempore vitae neque accusamus iure repellendus hic. Cumque praesentium, vel mollitia exercitationem voluptate voluptas sequi vero asperiores explicabo odit dolore fuga laudantium facere quod? Rem magni incidunt earum sequi ut molestiae dicta! Quidem eos corrupti illum nostrum, magnam natus saepe possimus enim ratione perspiciatis modi quos ex magni itaque, tenetur dolorem aspernatur maxime reprehenderit quis earum dolore! Blanditiis voluptatem possimus esse veniam, recusandae, impedit delectus corporis laudantium iste laboriosam fugit ipsa expedita.
-<script src="../portfolio/assets/js/script.js"></script>
+      
+        <!-- about section -->
+      <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="colum left">
+                    <img src="../portfolio/assets/img/about.jpeg" alt="">
+                </div>
+                <div class="colum right">
+                    <div class="text"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque quibusdam, officia voluptate eveniet cupiditate facere perferendis suscipit consequatur, distinctio architecto sunt vel enim maiores deserunt dignissimos magnam? Maxime, explicabo!</p>
+                    <p class="icons">
+                        <img src="../portfolio/assets/img/angular.png"> <img src="../portfolio/assets/img/bootstrap.png"> <img src="../portfolio/assets/img/css.png"> <img src="../portfolio/assets/img/git.png"> <img src="../portfolio/assets/img/html.png"> <img src="../portfolio/assets/img/js.png"> <img src="../portfolio/assets/img/primeng.PNG"> <img src="../portfolio/assets/img/ts.png"> <img src="../portfolio/assets/img/ux.png"> <img src="../portfolio/assets/img/xd.png">     
+                    </p>
+                    
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- proyects -->
+    <section class="projects" id="projects">
+        <div class="max-width">
+            <h2 class="title">My Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                   <div class="box">
+                    <img src="../portfolio/assets/img/pokemon.jpg">
+                    <div class="text">Pokemon App</div>
+                   </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                     <img src="../portfolio/assets/img/rick.jpg">
+                     <div class="text">Rick & Morty App</div>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                     <img src="../portfolio/assets/img/blog.png">
+                     <div class="text">Name</div>
+                    </div>
+                 </div>
+                 <div class="card">
+                    <div class="box">
+                     <img src="../portfolio/assets/img/blog2.jpg">
+                     <div class="text">Pokemon App</div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contac Me</h2>
+           <div class="contact-content">
+            <div class="column left">
+                <div class="text">Get in Touch</div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatem! Doloremque incidunt libero, reprehenderit enim blanditiis similique ducimus delectus, rem nisi dolorum provident optio qui velit, repudiandae tempore suscipit quos?</P>
+                <div class="icons">
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Camila Castrillon</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <div class="head">Name</div>
+                            <div class="sub-title">Camila Castrillon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+
+    
+
+
+    <script src="../portfolio/assets/js/script.js"></script>
     </body>
 </html>
