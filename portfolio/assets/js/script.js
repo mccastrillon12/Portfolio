@@ -57,3 +57,25 @@ var typed = new Typed (".typing",{
     backSpeed: 60,
     loop: true
 })
+
+// scroll animation
+ScrollReveal({ 
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay:100
+
+
+});
+
+// about
+ScrollReveal().reveal('.about .max-width .title ', { delay: 400, origin: 'left'});
+ScrollReveal().reveal('.about .max-width p ', { delay: 600, origin: 'left'});
+ScrollReveal().reveal('.about .max-width img', { delay: 600, origin: 'left'});
+ScrollReveal().reveal('.about .max-width .cv', { delay: 600, origin: 'left'});
+
+// my projects
+ScrollReveal().reveal('.projects .max-width .title ', { delay: 500, origin: 'left',interval: 200});
+
+ScrollReveal().reveal('.contact .max-width .title ', { delay: 500, origin: 'left',interval: 400});
+// contact

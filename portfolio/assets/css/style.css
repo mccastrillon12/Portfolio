@@ -425,9 +425,11 @@ section{
 .contact .contact-content .left p{
     text-align:justify
 }
+
+
 .contact .contact-content .left .icons{
     margin: 10px 0;
-    
+
 }
 .contact .contact-content .row{
    display:flex;
