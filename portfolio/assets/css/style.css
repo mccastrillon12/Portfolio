@@ -99,7 +99,7 @@ html{
     cursor:pointer;
     opacity: 0;
     pointer-events: none;
-    transition:all 0.1s ease;
+    transition:all 0.3s ease;
 
 
 }
@@ -282,7 +282,7 @@ section{
 
 
 .projects .carousel .card{
-    background: #222;
+    background: rgba(34, 34, 34, 0.59);
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -407,6 +407,51 @@ section{
     background: url("../img/fondo3.jpeg") no-repeat center;
 }
 
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.contact .contact-content .column{
+    width: calc(50% - 30px)
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight:600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align:justify
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+    
+}
+.contact .contact-content .row{
+   display:flex;
+   height:65px;
+   align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color:rgb(255, 0, 140)
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+
+
+
 /* responsive media query */
 @media (max-width: 1300px){
     .home .max-width{
@@ -519,5 +564,9 @@ section{
         font-size: 27px;
     
     }
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+     }
 }
 
