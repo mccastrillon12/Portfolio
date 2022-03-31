@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");   
-               console.log("hola")
+         
         }else{
             $('.navbar').removeClass("sticky");     
         }
@@ -57,6 +57,14 @@ var typed = new Typed (".typing",{
     backSpeed: 60,
     loop: true
 })
+
+var typed = new Typed (".typingContactMe",{
+    strings:["For hire","To learn"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
+})
+
 
 // scroll animation
 ScrollReveal({ 
