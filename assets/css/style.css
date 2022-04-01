@@ -284,7 +284,10 @@ section{
     background: #434142;
     transform: translateX(-50%);
 }
-
+.projects a {
+    color:#fff;
+ 
+}
 .projects{
     color:#fff;
     background: url("../img/fondo4.jpeg") no-repeat center;

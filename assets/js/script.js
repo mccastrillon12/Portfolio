@@ -41,7 +41,7 @@ $(document).ready(function(){
                 nav: false
             },
             1000:{
-                items: 3,
+                items: 2,
                 nav: false
             }
         }
@@ -70,17 +70,17 @@ var typed = new Typed (".typingContactMe",{
 ScrollReveal({ 
     reset: true,
     distance: '60px',
-    duration: 2500,
-    delay:100
+    duration: 2200,
+    delay:80
 
 
 });
 
 // about
-ScrollReveal().reveal('.about .max-width .title ', { delay: 400, origin: 'left'});
-ScrollReveal().reveal('.about .max-width p ', { delay: 600, origin: 'left'});
-ScrollReveal().reveal('.about .max-width img', { delay: 600, origin: 'left'});
-ScrollReveal().reveal('.about .max-width .cv', { delay: 600, origin: 'left'});
+ScrollReveal().reveal('.about .max-width .title ', { delay: 200, origin: 'left'});
+ScrollReveal().reveal('.about .max-width p ', { delay: 300, origin: 'left'});
+ScrollReveal().reveal('.about .max-width img', { delay: 300, origin: 'left'});
+ScrollReveal().reveal('.about .max-width .cv', { delay: 300, origin: 'left'});
 
 // my projects
 ScrollReveal().reveal('.projects .max-width .title ', { delay: 500, origin: 'left',interval: 200});
