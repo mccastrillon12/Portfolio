@@ -84,6 +84,10 @@ html{
     display: none;
 }
 
+.menu-btn img{
+    width: 49px;
+}
+
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -102,6 +106,11 @@ html{
     pointer-events: none;
     transition:all 0.3s ease;
 }
+.scroll-up-btn img{
+    width: 31px;
+    margin-top: 9px;
+}
+
 
 .scroll-up-btn.show{
     bottom: 30px;
@@ -494,10 +503,7 @@ section{
         z-index: 999;
     }
 
-    .menu-btn i.active:before{
-        content:"\f00d";
-    }
-
+   
 
     .navbar .menu{
        position: fixed;
